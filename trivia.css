@@ -1,0 +1,129 @@
+/* Universal selector to reset default margin and padding for all elements,
+   and set box-sizing to border-box for consistent sizing */
+* {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Body styles */
+body {
+    background: url(Engage_Bible_Logo_Color.png); /* Set background image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    background-size: cover; /* Scale the background image to cover the entire viewport */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Set the height to the full viewport height */
+}
+
+/* Styles for the main heading */
+h1 {
+    font-size: 40px; /* Set font size */
+    color: wheat; /* Set text color */
+    text-decoration: none; /* Remove underline from text */
+    font-weight: 800; /* Set font weight */
+    padding: 30px; /* Add padding */
+    margin-top: 10px; /* Space above the heading */
+    letter-spacing: 3px; /* Add spacing between letters */
+    filter: drop-shadow(7px 7px 10px); /* Add shadow effect to the text */
+}  
+
+/* Trivia section styles */
+.trivia {
+    background: wheat; /* Set background color */
+    width: 90%; /* Set width relative to the parent */
+    max-width: 600px; /* Limit maximum width */
+    margin: 10px auto 0; /* Center the trivia section with top margin */
+    border-radius: 10px; /* Round corners */
+    padding: 30px; /* Add padding */
+}
+
+/* Styles for subheading within trivia section */
+.trivia h2 {
+    font-size: 35px; /* Set font size */
+    color: #001e4d; /* Set text color */
+    font-weight: 600; /* Set font weight */
+    border-bottom: 1px solid #333; /* Add bottom border for separation */
+    padding-bottom: 30px; /* Space below the heading */
+}
+
+/* Quiz section styles */
+.quiz {
+    padding: 20px 0; /* Vertical padding for the quiz section */
+}
+
+/* Styles for quiz question heading */
+.quiz h3 {
+    font-size: 30px; /* Set font size */
+    color: #222324; /* Set text color */
+    font-weight: 600; /* Set font weight */
+}
+
+/* Styles for buttons */
+.btn {
+    background: #fff; /* Set button background color */
+    color: #222324; /* Set button text color */
+    font-weight: 500; /* Set font weight */
+    width: 100%; /* Full width */
+    border: 1px solid #222324; /* Border for the button */
+    padding: 10px; /* Padding for the button */
+    margin: 10px 0; /* Margin above and below */
+    text-align: left; /* Align text to the left */
+    border-radius: 4px; /* Round corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: all 0.3s; /* Smooth transition for all properties */
+}
+
+/* Hover effect for answer buttons, except when disabled */
+.btn:hover:not([disabled]) {
+    background: #b3aaaa; /* Change background color on hover */
+    color: #0c0b0b; /* Change text color on hover */
+    font-size: 17px; /* Increase font size on hover */
+    font-weight: 600; /* Increase font weight on hover */
+}
+
+/* Styles for the "Next" button */
+#next-btn {
+    background: #414449; /* Set background color */
+    color: #fff; /* Set text color */
+    font-weight: 700; /* Set font weight */
+    font-size: 17px; /* Set font size */
+    width: 150px; /* Fixed width for the button */
+    border: 0; /* Remove border */
+    padding: 10px; /* Padding for the button */
+    margin: 20px auto 0; /* Center button with margin */
+    border-radius: 4px; /* Round corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    display: none; /* Initially hidden */
+}
+
+/* Styles for the "Reset" button */
+#reset-btn {
+    background: #414449; /* Set background color */
+    color: #fff; /* Set text color */
+    font-weight: 700; /* Set font weight */
+    font-size: 17px; /* Set font size */
+    width: 150px; /* Fixed width for the button */
+    border: 0; /* Remove border */
+    padding: 10px; /* Padding for the button */
+    margin: 20px auto 0; /* Center button with margin */
+    border-radius: 4px; /* Round corners */
+    cursor: pointer; /* Change cursor to pointer on hover */  
+    display: none; /* Initially hidden */
+}
+
+/* Hover effect for the reset button */
+#reset-btn:hover {
+    background: #5a5b5e; /* Change background color on hover */
+    color: #0c0b0b; /* Change text color on hover */
+    font-size: 17px; /* Set font size on hover */
+    font-weight: 800; /* Increase font weight on hover */
+    letter-spacing: 1px; /* Add spacing between letters on hover */
+}
+
+/* Footer styles */
+footer {
+    margin-top: -0.7cm; /* Adjust footer position with negative margin */
+    text-align: center; /* Center footer text */
+    padding: 5px; /* Add padding */
+}
+

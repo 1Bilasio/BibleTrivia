@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Engage Bible</title>
+    <!-- Link to the external CSS stylesheet for styling the webpage -->
+    <link rel="stylesheet" href="homepage.css">
+    <script>
+        // Function to redirect the user to the trivia page when called
+        function redirectToFile() {
+            window.location.href = "trivia.html"; // redirection link
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="header-side">
+            <!-- Logo image for the website with alt text for accessibility -->
+            <img src="Engage_Bible_Logo_Color.png" alt="Engage Bible">
+            <h1>Engage Bible</h1> <!-- Main heading for the website -->
+        </div>
+    </header>
+
+    <main>
+        <!-- Section for featured trivia topics -->
+        <section class="featured-trivia">
+            <h2>Featured Trivia</h2>
+            <ul>
+                <!-- Links to different trivia topics; consider adding href values for navigation -->
+                <li><a href="#">Old Testament Trivia</a></li>
+                <li><a href="#">New Testament Trivia</a></li>
+                <li><a href="#">Bible Characters Trivia</a></li>
+            </ul>
+        </section>
+
+        <!-- Section providing information about the website -->
+        <section class="about">
+            <h2>About</h2>
+            <p>
+                Engage Bible is a website that provides a platform for 
+                users to engage in discussions and share their thoughts on 
+                various topics. It serves as a space for users to express their opinions, 
+                engage in debates, and connect with like-minded individuals. 
+                The website offers a range of features and tools to facilitate 
+                meaningful discussions and foster a sense of community among its users.
+            </p>
+        </section>
+
+        <!-- Section containing the button to start playing trivia -->
+        <section class="play">  
+            <button onclick="redirectToFile()">Start Playing</button> <!-- Button triggers redirection to trivia page -->
+        </section>
+    </main>
+
+    <!-- Footer section with copyright information -->
+    <footer>
+        <p>&copy; 2024 Bible Trivia</p>
+    </footer>
+</body>
+</html>
+

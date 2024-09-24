@@ -1,0 +1,111 @@
+/* Reset default padding for all elements and set box-sizing model to border-box */
+* {
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=SUSE:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap'); /* Redundant import, can be removed */
+
+/* Styles for the body element */
+body {
+    font-family: Arial, sans-serif; /* Fallback font if Arial is not available */
+    text-align: center; /* Center text alignment for the body */
+    background-color: #000000; /* Set background color to black */
+    color: #f9f6f6; /* Set text color to a light shade */
+}
+
+/* Styles for the header */
+header {
+    color: #864D25; /* Set header text color */
+    font-size: large; /* Large font size for header */
+}
+
+/* Styles for the logo image in the header */
+header img {
+    width: 23vw; /* Responsive width based on viewport width */
+    height: 38vh; /* Responsive height based on viewport height */
+    margin: -0.5cm 0; /* Negative margin to adjust positioning */
+}
+
+/* Section styling */
+section {
+    margin-bottom: 20px; /* Add space below each section */
+}
+
+/* Paragraph styling within sections */
+section > p {
+    width: 80%; /* Set paragraph width */
+    margin: auto; /* Center the paragraph */
+    font-family: "SUSE", sans-serif; /* Use imported SUSE font */
+    font-optical-sizing: auto; /* Allow font to adjust based on content size */
+    font-weight: weight; /* This should specify a weight value (e.g., 400) */
+    font-style: normal; /* Set font style to normal */
+}
+
+/* Heading styles within sections */
+section > h2 {
+    color: #864D25; /* Set color for section headings */
+    margin-bottom: 10px; /* Space below headings */
+}
+
+/* Styles specific to the featured trivia section */
+.featured-trivia ul {
+    list-style: none; /* Remove default list styling */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+}
+
+/* Styles for list items in featured trivia */
+.featured-trivia li {
+    display: inline-block; /* Display list items in a row */
+    margin: 10px; /* Add space between items */
+}
+
+/* Styles for links in the featured trivia section */
+.featured-trivia a {
+    color: #333; /* Set link color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold font for links */
+    font-size: 1.2em; /* Larger font size */
+    transition: transform 0.3s ease; /* Smooth transition for transform effects */
+}
+
+/* Hover effect for trivia links */
+.featured-trivia a:hover {
+    transform: scale(1.3); /* Scale up link on hover */
+    color: #f5f4f1; /* Change link color on hover */
+    background-color: #363b3f; /* Change background color on hover */
+    padding: 5px 10px; /* Add padding on hover */
+    border-radius: 5px; /* Round the corners of the link */
+}
+
+/* Styles for the play button */
+.play button {
+    background-color: #39424bef; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+    border-radius: 25px; /* Round the corners of the button */
+    text-transform: uppercase; /* Transform text to uppercase */
+    letter-spacing: 1px; /* Add space between letters */
+}
+
+/* Hover effect for the play button */
+.play button:hover {
+    background-color: #2c5e57; /* Change background color on hover */
+    transform: translateY(-2px); /* Move button slightly up on hover */
+    box-shadow: 0 4px 10px rgba(96, 157, 223, 0.3); /* Add shadow effect on hover */
+}
+
+/* Footer styles */
+footer {
+    margin-top: -0.7cm; /* Adjust footer position with negative margin */
+    text-align: center; /* Center footer text */
+    padding: 5px; /* Add padding */
+}
+
